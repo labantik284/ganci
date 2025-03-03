@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+header {
+    background: #ff6600;
+    padding: 10px;
+    color: white;
+}
+.cart {
+    float: right;
+}
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+}
